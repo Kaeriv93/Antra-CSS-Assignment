@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -16,10 +17,29 @@ nav a{
     
 }
 
-nav li{
+nav li, footer li{
     display: inline-block;
 }
 
 .know{
     color:#3331f6;
+}
+
+.top-container{
+    background-color:#c6bfbf;
+    padding: 4vh;
+}
+
+.middle-container{
+    display: flex;
+    margin: 0 2vh;
+}
+
+footer{
+    background-color: #0b4d14;
+    padding: 2vh;
+}
+
+footer a{
+    color: white;
 }
