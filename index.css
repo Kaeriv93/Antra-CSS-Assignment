@@ -26,18 +26,28 @@ nav li, footer li{
     color:#3331f6;
 }
 
+
 .top-container{
     background-color:#c6bfbf;
     padding: 4vh;
+    padding-left: 10vw;
+}
+
+.top-container h1{
+    padding-bottom: 2vh;
 }
 
 .middle-container{
     display: flex;
-    margin: 0 2vh;
+    padding: 2vh 10vw;
     padding-bottom: 20vh;
 }
 
-.middle-container p{
+.row-1,.row-2{
+    margin-right: 3vw;
+}
+
+.middle-container p, .top-container p{
     font-size: 1.4rem;
 }
 
